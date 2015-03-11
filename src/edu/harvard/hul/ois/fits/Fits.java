@@ -71,7 +71,7 @@ public class Fits {
 
   private static Logger logger;
 
-  public static volatile String FITS_HOME;
+  public static volatile String FITS_CONF;
   public static String FITS_XML;
   public static String FITS_TOOLS;
   public static XMLConfiguration config;
@@ -97,26 +97,30 @@ public class Fits {
 
   public Fits( String fits_home ) throws FitsConfigurationException {
 
-    // Set BB_HOME dir with environment variable
-    FITS_HOME = System.getenv( "FITS_HOME" );
-    if (FITS_HOME == null) {
-      // if env variable not set check for fits_home passed into constructor
-      if (fits_home != null) {
-        FITS_HOME = fits_home;
-      } else {
-        // if fits_home is still not set use the current directory
-        FITS_HOME = "";
+    // Set configuration directory
+    FITS_CONF = System.getenv("FITS_CONF");
+    if(FITS_CONF == null || FITS_CONF.isEmpty()) {
+      // If no FITS_CONF environment variable, then use FITS_HOME for configuration directory. 
+      FITS_CONF = System.getenv( "FITS_HOME" );
+      if (FITS_CONF == null || FITS_CONF.isEmpty()) {
+        // if environment variables are not set, check for fits_home passed into constructor
+        if (fits_home != null) {
+          FITS_CONF = fits_home;
+        } else {
+          // if fits_home is still not set use the current directory
+          FITS_CONF = "";
+        }
       }
     }
 
     // If fits home is not an empty string and doesn't send with a file
     // separator character, add one
-    if (FITS_HOME.length() > 0 && !FITS_HOME.endsWith( File.separator )) {
-      FITS_HOME = FITS_HOME + File.separator;
+    if (FITS_CONF.length() > 0 && !FITS_CONF.endsWith( File.separator )) {
+      FITS_CONF = FITS_CONF + File.separator;
     }
 
-    FITS_XML = FITS_HOME + "xml" + File.separator;
-    FITS_TOOLS = FITS_HOME + "tools" + File.separator;
+    FITS_XML = FITS_CONF + "xml" + File.separator;
+    FITS_TOOLS = FITS_CONF + "tools" + File.separator;
 
     // Set up logging.
     // Now using an explicit properties file, because otherwoise DROID will

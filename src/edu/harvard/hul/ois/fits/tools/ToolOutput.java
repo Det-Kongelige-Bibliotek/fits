@@ -55,7 +55,7 @@ public class ToolOutput {
         docBuilderFactory.setNamespaceAware(true);
         docBuilderFactory.setValidating(true);
         docBuilderFactory.setAttribute("http://java.sun.com/xml/jaxp/properties/schemaLanguage", "http://www.w3.org/2001/XMLSchema");
-        docBuilderFactory.setAttribute("http://java.sun.com/xml/jaxp/properties/schemaSource", Fits.FITS_HOME+Fits.internalOutputSchema);
+        docBuilderFactory.setAttribute("http://java.sun.com/xml/jaxp/properties/schemaSource", Fits.FITS_CONF+Fits.internalOutputSchema);
     }
 
     private static Namespace ns = Namespace.getNamespace("fits",Fits.XML_NAMESPACE);

@@ -80,6 +80,7 @@ public class ToolBelt {
 			    				" error initializing " + tClass +  
 			    				": " + e.getClass().getName() + 
 			    				"  Message: " + e.getMessage());
+			    e.printStackTrace();
 			    continue;
 			}
 			if(t != null) {

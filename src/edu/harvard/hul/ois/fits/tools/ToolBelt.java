@@ -79,8 +79,7 @@ public class ToolBelt {
 			    logger.error ("Thread "+Thread.currentThread().getId() +
 			    				" error initializing " + tClass +  
 			    				": " + e.getClass().getName() + 
-			    				"  Message: " + e.getMessage());
-			    e.printStackTrace();
+			    				"  Message: " + e.getMessage(), e);
 			    continue;
 			}
 			if(t != null) {

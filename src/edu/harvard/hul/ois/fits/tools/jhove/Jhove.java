@@ -73,9 +73,9 @@ public class Jhove extends ToolBase {
             jhove.setSignatureFlag(false);
             jhove.setShowRawFlag(false);
       	    xh = new XmlHandler();
-      	    jhoveApp = new App ("Jhove","1.5", new int[] {2009, 12, 23}, "","");
+      	    jhoveApp = new App ("Jhove","1.12-SNAPSHOT", new int[] {2015, 9, 21}, "SNAPSHOT","");
             xh.setApp(jhoveApp);
-            xh.setBase(jhove);   		
+            xh.setBase(jhove);
 		}
 		catch (JhoveException e) {
 		    logger.error ("Error initializing Jhove: " + e.getClass().getName());

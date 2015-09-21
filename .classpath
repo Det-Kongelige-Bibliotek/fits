@@ -9,10 +9,6 @@
 	<classpathentry kind="lib" path="lib/commons-lang-2.4.jar"/>
 	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
 	<classpathentry kind="lib" path="lib/commons-collections-3.2.jar"/>
-	<classpathentry kind="lib" path="lib/jhove/jhove-handler.jar"/>
-	<classpathentry kind="lib" path="lib/jhove/jhove.jar"/>
-	<classpathentry kind="lib" path="lib/jhove/JhoveApp.jar"/>
-	<classpathentry kind="lib" path="lib/jhove/jhove-module.jar"/>
 	<classpathentry kind="lib" path="lib/jdom.jar"/>
 	<classpathentry kind="lib" path="lib/saxpath.jar"/>
 	<classpathentry kind="lib" path="lib/fast-md5.jar"/>
@@ -161,5 +157,10 @@
 	<classpathentry kind="lib" path="lib/droid/spring-tx-4.0.3.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/droid/stax-api-1.0-2.jar"/>
 	<classpathentry kind="lib" path="lib/droid/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="/home/jolf/sifd/fits/lib/jhove/jhove-apps-1.12.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="/home/jolf/sifd/fits/lib/jhove/jhove-core-1.12.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="/home/jolf/sifd/fits/lib/jhove/jhove-installer-1.12.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="/home/jolf/sifd/fits/lib/jhove/jhove-modules-1.12.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="/home/jolf/sifd/fits/lib/jhove/jhove-xplt-installer-1.12.0-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="build_local"/>
 </classpath>

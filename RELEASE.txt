@@ -1,5 +1,32 @@
 RELEASE NOTES
 
+Version 0.8.9 (08/12/15)
+----------------------
+Removed old version of TIKA jar file
+Updated SLF4J jar filed for DROID
+Revised to use versioned OTS jar file
+Minor Unit Test cleanup
+
+Version 0.8.8 (07/29/15)
+----------------------
+- Added initial support for video files using the MediaInfo Tool
+- Tika 1.8 update
+
+Version 0.8.7 (6/8/15)
+----------------------
+
+- Added logging properties that were lost back into class.
+
+Version 0.8.6 (5/20/15)
+----------------------
+
+- OTS.jar update: fixed bug for invalid MIX XML mix:LumaRed error for TIFF with JPEG compression.
+
+Version 0.8.5 (5/05/15)
+----------------------
+
+- Introduce ability to suppress MD5 calculation by file type.
+
 Version 0.8.4 (1/26/15)
 ----------------------
 - Updated OTS.jar for MODS 3.5 issues.

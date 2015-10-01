@@ -1,6 +1,6 @@
 <fitsXmlMap>
 
-	<tool name="jhove" version="1.5">
+	<tool name="jhove" version="1.12-SNAPSHOT">
 		<mime type="all">
 			<element name="colorSpace">
 				<map from="Greyscale" to="Grayscale"/>

@@ -61,7 +61,7 @@
 	<classpathentry kind="lib" path="lib/droid/cxf-rt-ws-addr-2.2.12.jar"/>
 	<classpathentry kind="lib" path="lib/droid/cxf-tools-common-2.2.12.jar"/>
 	<classpathentry kind="lib" path="lib/droid/de.huxhorn.lilith.3rdparty.flyingsaucer.core-renderer-8RC1.jar"/>
-	<classpathentry kind="lib" path="/home/jolf/sifd/fits/lib/droid/derby-10.10.2.0.jar"/>
+	<classpathentry kind="lib" path="lib/droid/derby-10.10.2.0.jar"/>
 	<classpathentry kind="lib" path="lib/droid/dom4j-1.6.1.jar"/>
 	<classpathentry kind="lib" path="lib/droid/itext-2.0.8.jar"/>
 	<classpathentry kind="lib" path="lib/droid/javahelp-2.0.05.jar"/>
@@ -157,10 +157,10 @@
 	<classpathentry kind="lib" path="lib/droid/spring-tx-4.0.3.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/droid/stax-api-1.0-2.jar"/>
 	<classpathentry kind="lib" path="lib/droid/validation-api-1.1.0.Final.jar"/>
-	<classpathentry kind="lib" path="/home/jolf/sifd/fits/lib/jhove/jhove-apps-1.12.0-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="/home/jolf/sifd/fits/lib/jhove/jhove-core-1.12.0-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="/home/jolf/sifd/fits/lib/jhove/jhove-installer-1.12.0-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="/home/jolf/sifd/fits/lib/jhove/jhove-modules-1.12.0-SNAPSHOT.jar"/>
-	<classpathentry kind="lib" path="/home/jolf/sifd/fits/lib/jhove/jhove-xplt-installer-1.12.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/jhove/jhove-apps-1.12.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/jhove/jhove-core-1.12.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/jhove/jhove-installer-1.12.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/jhove/jhove-modules-1.12.0-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="lib/jhove/jhove-xplt-installer-1.12.0-SNAPSHOT.jar"/>
 	<classpathentry kind="output" path="build_local"/>
 </classpath>
